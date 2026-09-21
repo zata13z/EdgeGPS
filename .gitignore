@@ -1,0 +1,28 @@
+# Configuration et secrets
+config.h
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+# Donnees et sauvegardes de la carte
+*.gpx
+*.bin
+*.zip
+*.log
+*.bak
+*.dump
+# Compilation et IDE
+build/
+.pio/
+.cache/
+.vscode/
+.idea/
+*.elf
+*.map
+*.o
+*.a
+*.tmp
+Thumbs.db
+.DS_Store
